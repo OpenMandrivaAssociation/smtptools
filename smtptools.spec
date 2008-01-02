@@ -11,6 +11,7 @@ Patch1:		smtptools-0.2.3-resolv.diff
 BuildRequires:	libtool
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This collection of commands contains tools to send and receive
