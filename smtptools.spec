@@ -1,7 +1,7 @@
 Summary:	Tools for the Simple Mail Transfer Protocol
 Name:		smtptools
 Version:	0.2.3
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		Networking/Mail
 URL:		http://www.ohse.de/uwe/software/smtptools.html
