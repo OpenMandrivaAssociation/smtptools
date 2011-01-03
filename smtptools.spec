@@ -1,7 +1,7 @@
 Summary:	Tools for the Simple Mail Transfer Protocol
 Name:		smtptools
 Version:	0.2.3
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	GPL
 Group:		Networking/Mail
 URL:		http://www.ohse.de/uwe/software/smtptools.html
@@ -9,7 +9,7 @@ Source0:	ftp://ftp.ohse.de/uwe/releases/%{name}-%{version}.tar.bz2
 Patch0:		smtptools-0.2.3-no_usmtpd.diff
 Patch1:		smtptools-0.2.3-resolv.diff
 BuildRequires:	libtool
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	autoconf2.5
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
@@ -38,7 +38,7 @@ the qmail-smtpd) as it would imply qmail is required.
 
 %build
 rm -f configure
-libtoolize --force --copy; aclocal-1.7; autoheader; automake-1.7 --add-missing --copy --foreign; autoconf
+libtoolize --force --copy; aclocal; autoheader; automake --add-missing --copy --foreign; autoconf
 
 %configure2_5x
 
