@@ -1,0 +1,11 @@
+--- configure.in	1999-01-20 18:49:48.000000000 +0100
++++ configure.in.oden	2006-01-13 18:23:47.000000000 +0100
+@@ -54,7 +54,7 @@
+ if test "x$WANT_EFENCE" = x ; then : ;  else
+ 	AC_CHECK_LIB(efence, main)
+ fi
+-AC_CHECK_LIB(resolv, dn_expand)
++AC_CHECK_LIB(resolv, __dn_expand)
+ dnl SCO needs this.
+ AC_CHECK_LIB(socket,syslog,,,)
+ dnl slowlartis needs this
