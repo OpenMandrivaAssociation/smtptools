@@ -4,7 +4,7 @@ Version:	0.2.3
 Release:	%mkrel 8
 License:	GPL
 Group:		Networking/Mail
-URL:		http://www.ohse.de/uwe/software/smtptools.html
+URL:		https://www.ohse.de/uwe/software/smtptools.html
 Source0:	ftp://ftp.ohse.de/uwe/releases/%{name}-%{version}.tar.bz2
 Patch0:		smtptools-0.2.3-no_usmtpd.diff
 Patch1:		smtptools-0.2.3-resolv.diff
