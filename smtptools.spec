@@ -8,6 +8,8 @@ URL:		https://www.ohse.de/uwe/software/smtptools.html
 Source0:	ftp://ftp.ohse.de/uwe/releases/%{name}-%{version}.tar.bz2
 Patch0:		smtptools-0.2.3-no_usmtpd.diff
 Patch1:		smtptools-0.2.3-resolv.diff
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	libtool
 BuildRequires:	automake
 BuildRequires:	autoconf2.5
